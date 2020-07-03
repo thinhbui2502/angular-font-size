@@ -1,0 +1,13 @@
+<h2>Font size editor by ThinhBui</h2>
+
+<div>
+  <p>Enter the size (px)</p>
+  <input type="range" min="12" max="40" [value]="fontSize" (change)="onChange($event.target.value)">
+</div>
+
+<p class="output" [style.fontSize.px]="fontSize">
+  Từ ấy trong tôi bừng nắng hạ
+  Mặt trời chân lý chói qua tim
+  Hồn tôi là một vườn hoa lá
+  Rất đậm hương và rộn tiếng chim...
+</p>
